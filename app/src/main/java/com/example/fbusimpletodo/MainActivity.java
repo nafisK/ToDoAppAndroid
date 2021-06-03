@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemLongClicked(int position) {
                 items.remove(position);
                 itemsAdapter.notifyItemRemoved(position);
-                Toast.makeText(getApplicationContext(),  "Item Added", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),  "Item Deleted", Toast.LENGTH_SHORT).show();
                 saveItems();
             }
         };
